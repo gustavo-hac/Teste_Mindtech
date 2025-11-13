@@ -23,8 +23,8 @@ CREATE TABLE IF NOT EXISTS `usuarios`(
 --
 
 INSERT INTO `usuarios` (`email`, `inscrito`) VALUES
-('testando0', 0),
-('testando1', 1);
+('gustavo_h.a.c@hotmail.com', 0),
+('email@.com', 1);
 
 --
 -- Adição separada de índices da tabela `usuarios`
