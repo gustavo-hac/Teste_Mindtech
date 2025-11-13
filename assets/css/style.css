@@ -97,19 +97,8 @@ main #iot_image_area {
   align-content: start;
 }
 
-.form_subscribe input{
-  display: block;
-  justify-self: start;
-  border-radius: 6px;
-  border: none;
-  padding: 0.6rem 1rem;
-  color: #ffffff00;
-  max-width: 100%;
-  max-height: 100%;
-}
-
 .form_subscribe input::placeholder {
-  opacity: 0.25;
+  opacity: 0.30;
 }
 
 .form_subscribe .form_area{
@@ -119,13 +108,52 @@ main #iot_image_area {
   gap: 0.5rem;
 }
 
-.form_subscribe #form_button{
+.form_area input{
+  display: block;
+  justify-self: start;
+  border-radius: 6px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  padding: 0.6rem 1rem;
+  color: #000000;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.form_subscribe #form_button_sub{
   background-color: #165CDE;
   width: 100%;
   padding: 0.6rem;
   border-radius: 6px;
   border: none;
   color: #ffffffb9;
+}
+
+.form_subscribe #form_button_unsub{
+  display: flex;
+  background-color: #e40a0ac2;
+  min-width: max-content;
+  width: 50%;
+  max-width: 50%;
+  max-height: 50%;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: none;
+  color: #000000de;
+  justify-self: center;
+  align-self: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.form_subscribe span{
+  text-align: center;
+}
+footer{
+  align-self: center;
+  font-weight: 400;
 }
 /* ul {
   padding: 0;
